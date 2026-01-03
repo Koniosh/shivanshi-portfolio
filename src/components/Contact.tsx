@@ -23,8 +23,8 @@ const contactLinks = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/shivanshi-upadhyay",
-    href: "https://linkedin.com/in/shivanshi-upadhyay",
+    value: "linkedin.com/in/shivanshi-u-9a7573281",
+    href: "https://www.linkedin.com/in/shivanshi-u-9a7573281",
   },
 ];
 
@@ -49,7 +49,7 @@ export const Contact = () => {
               Let's Work Together
             </h2>
             <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
-              I'm always open to discussing new projects, creative ideas, or opportunities 
+              I'm always open to discussing new projects, creative ideas, or opportunities
               to be part of your visions.
             </p>
           </div>

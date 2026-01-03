@@ -26,9 +26,9 @@ export const Hero = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Greeting */}
-          <p 
+          <p
             className="text-muted-foreground mb-4"
-            style={{ 
+            style={{
               animation: 'fade-up 0.6s ease-out 0.1s both'
             }}
           >
@@ -36,9 +36,9 @@ export const Hero = () => {
           </p>
 
           {/* Name with shimmer effect */}
-          <h1 
+          <h1
             className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-foreground via-primary to-foreground bg-[length:200%_auto] bg-clip-text text-transparent"
-            style={{ 
+            style={{
               animation: 'fade-up 0.6s ease-out 0.2s both, text-shimmer 3s linear infinite'
             }}
           >
@@ -46,9 +46,9 @@ export const Hero = () => {
           </h1>
 
           {/* Role with typing effect styling */}
-          <div 
+          <div
             className="mb-8"
-            style={{ 
+            style={{
               animation: 'fade-up 0.6s ease-out 0.3s both'
             }}
           >
@@ -59,21 +59,21 @@ export const Hero = () => {
           </div>
 
           {/* Description */}
-          <p 
+          <p
             className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10"
-            style={{ 
+            style={{
               animation: 'fade-up 0.6s ease-out 0.4s both'
             }}
           >
-            Crafting scalable web applications with modern technologies. 
-            Passionate about clean architecture, performance optimization, and building 
+            Crafting scalable web applications with modern technologies.
+            Passionate about clean architecture, performance optimization, and building
             products that make a difference.
           </p>
 
           {/* CTA Buttons */}
-          <div 
+          <div
             className="flex flex-wrap items-center justify-center gap-4 mb-12"
-            style={{ 
+            style={{
               animation: 'fade-up 0.6s ease-out 0.5s both'
             }}
           >
@@ -97,9 +97,9 @@ export const Hero = () => {
           </div>
 
           {/* Social Links */}
-          <div 
+          <div
             className="flex items-center justify-center gap-6"
-            style={{ 
+            style={{
               animation: 'fade-up 0.6s ease-out 0.6s both'
             }}
           >
@@ -112,7 +112,7 @@ export const Hero = () => {
               <Github size={24} className="text-muted-foreground group-hover:text-primary transition-colors" />
             </a>
             <a
-              href="https://linkedin.com/in/shivanshi-upadhyay"
+              href="https://www.linkedin.com/in/shivanshi-u-9a7573281"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300 group"
