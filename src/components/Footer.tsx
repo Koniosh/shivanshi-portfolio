@@ -9,8 +9,7 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Copyright */}
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            © {currentYear} Shivanshi Upadhyay. Built with
-            <Heart size={14} className="text-destructive fill-destructive" />
+            © {currentYear} Shivanshi Upadhyay
           </p>
 
           {/* Social Links */}
