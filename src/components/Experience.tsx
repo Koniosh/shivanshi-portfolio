@@ -69,30 +69,23 @@ export const Experience = () => {
             {experiences.map((exp, index) => (
               <div
                 key={index}
-                className={`relative mb-12 md:mb-16 ${
-                  index % 2 === 0 ? "md:pr-1/2 md:text-right" : "md:pl-1/2 md:ml-auto"
-                }`}
+                className={`relative mb-12 md:mb-16 ${index % 2 === 0 ? "md:pr-1/2 md:text-right" : "md:pl-1/2 md:ml-auto"
+                  }`}
               >
                 {/* Timeline Dot */}
                 <div
-                  className={`absolute left-0 md:left-1/2 w-4 h-4 rounded-full border-4 border-background md:-translate-x-1/2 ${
-                    exp.current ? "bg-primary animate-glow-pulse" : "bg-muted"
-                  }`}
+                  className={`absolute left-0 md:left-1/2 w-4 h-4 rounded-full border-4 border-background md:-translate-x-1/2 ${exp.current ? "bg-primary animate-glow-pulse" : "bg-muted"
+                    }`}
                   style={{ top: "6px" }}
                 />
 
                 {/* Content Card */}
                 <div
-                  className={`ml-8 md:ml-0 ${
-                    index % 2 === 0 ? "md:mr-8" : "md:ml-8"
-                  }`}
+                  className={`ml-8 md:ml-0 ${index % 2 === 0 ? "md:mr-8" : "md:ml-8"
+                    }`}
                 >
                   <div className="p-6 bg-card border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg group">
-                    {exp.current && (
-                      <span className="inline-block px-3 py-1 text-xs font-medium bg-primary/10 text-primary mb-4">
-                        Current
-                      </span>
-                    )}
+                    {exp.current}
 
                     <div className="flex items-center gap-2 text-muted-foreground mb-2">
                       <Calendar size={14} />
@@ -100,7 +93,7 @@ export const Experience = () => {
                     </div>
 
                     <h3 className="text-xl font-semibold mb-1">{exp.title}</h3>
-                    
+
                     <div className="flex items-center gap-2 text-primary mb-4">
                       <Briefcase size={14} />
                       <span className="font-medium">{exp.company}</span>
